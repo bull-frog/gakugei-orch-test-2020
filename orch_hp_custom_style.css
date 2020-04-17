@@ -19,15 +19,6 @@ h1.top-title {
 	font-weight: 600;
 }
 
-div.top-title-cover-multiple-lines {
-	font-size: 17vw;
-	padding-top: 30px;
-	line-height: 1.05;
-	height: 90vh;
-	font-weight: 600;
-	vertical-align: middle;
-}
-
 h3.topic-title {
 	font-weight: 700;
 	border-bottom: solid 1px;
@@ -54,6 +45,15 @@ h5 {
 	font-weight: 600;
 }
 
+div.top-title-cover-multiple-lines {
+	font-size: 17vw;
+	padding-top: 30px;
+	line-height: 1.05;
+	height: 90vh;
+	font-weight: 600;
+	vertical-align: middle;
+}
+
 img.full-width {
 	margin-left: 11vw;
 	margin-right: 11vw;
@@ -64,6 +64,26 @@ img.full-width {
 	text-decoration: underline;
 	color: white;
 	font-size: 20px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+a.topic-title {
+	font-family: "Roboto","Helvetica","Arial",sans-serif;
+	font-size: 34px;
+	line-height: 40px;
+	color: white;
+	font-weight: 700;
+	border-bottom: solid 1px;
+	text-align: center;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	display: block;
+	text-decoration: none;
+	transition: .3s;
+}
+a.topic-title:hover {
+	color: yellow;
 }
 
 img.sns-icon {
@@ -78,7 +98,6 @@ iframe {
 	width: 80vw;
 	height: 45vw;
 }
-
 
 .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
 	color: white;

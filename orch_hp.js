@@ -1,5 +1,8 @@
 window.onload = function() {
 	alert('ⓘただいま工事中');
+	var opacity = Math.min(document.getElementById('scroll_view').scrollTop / window.innerHeight, 1) * 0.75;
+	var bgcolor = "rgba(0, 0, 0, " + opacity + ")";
+	document.getElementById('main_content').style.backgroundColor = bgcolor;
 }
 
 var timeoutId;
