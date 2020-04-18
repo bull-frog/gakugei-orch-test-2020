@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 
+html {
+	color: white;
+}
 
 h1.top-title-cover {
 	display: table-cell;
@@ -68,11 +71,19 @@ img.full-width {
 	margin-right: 10vw;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+a:hover {
+	color: yellow;
+}
+
 a.topic-title {
 	font-family: "Roboto","Helvetica","Arial",sans-serif;
 	font-size: 34px;
 	line-height: 40px;
-	color: white;
 	font-weight: 700;
 	border-bottom: solid 1px;
 	text-align: center;
@@ -80,10 +91,19 @@ a.topic-title {
 	margin-right: 10vw;
 	display: block;
 	text-decoration: none;
-	transition: .3s;
 }
 a.topic-title:hover {
 	color: yellow;
+}
+
+a.content {
+	font-family: serif;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 32px;
 }
 
 img.sns-icon {

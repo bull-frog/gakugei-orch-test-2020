@@ -27,14 +27,14 @@
 			<header class="mdl-layout__header mdl-layout__header--transparent">
 				<div class="mdl-layout__header-row">
 					<!-- Title -->
-					<span class="mdl-layout-title">東京学芸大学附属高等学校オーケストラ部</span>
+					<a href="index.html" class="mdl-layout-title" style="transition: .3s">東京学芸大学附属高等学校オーケストラ部</a>
 					<!-- Add spacer, to align navigation to the right -->
 					<div class="mdl-layout-spacer"></div>
 					<!-- Navigation -->
 					<nav class="mdl-navigation">
 						<a class="mdl-navigation__link" href="index.html">ホーム</a>
 						<a class="mdl-navigation__link" href="">Link</a>
-						<a class="mdl-navigation__link" href="">楽器紹介</a>
+						<a class="mdl-navigation__link" href="instruments.html">楽器紹介</a>
 						<a class="mdl-navigation__link" href="">Link</a>
 					</nav>
 				</div>
@@ -45,7 +45,7 @@
 				<nav class="mdl-navigation">
 					<a class="mdl-navigation__link" href="index.html">ホーム</a>
 					<a class="mdl-navigation__link" href="">Link</a>
-					<a class="mdl-navigation__link" href="">Link</a>
+					<a class="mdl-navigation__link" href="instruments.html">楽器紹介</a>
 					<a class="mdl-navigation__link" href="">Link</a>
 				</nav>
 			</div>
@@ -59,20 +59,35 @@
 					<h1><br></h1>
 					
 					<h3 class="topic-title">
-						活動日
+						主な活動
 					</h3>
-					<h4 class="content">
-						月・水・木・金・土(不定期)
-					</h4>
+					<div align="center">
+						<h4 class="content" style="text-align: left; display: inline-block; line-height: 2">
+							活動日：月/水/木/金/土(不定期)<br />
+							合　宿：8月<br />
+							冬休み：他校との合同練習あり
+						</h4>
+					</div>
 					<h1><br></h1>
 					
 					<h3 class="topic-title">
 						活動場所
 					</h3>
 					<h4 class="content">
-						別館3階
+						<br />別館3階　音楽室、合奏室、楽器庫<br />
 					</h4>
 					<img class="full-width" src="p/location_map.png" />
+					<h3><br /></h3>
+					<div class="mdl-grid" style="margin-left: 10vw; margin-right: 10vw;">
+						<div class="mdl-cell mdl-cell--6-col">
+							<img src="p/music_room.jpg" style="width: 100%" />
+						</div>
+						<div class="mdl-cell mdl-cell--6-col">
+							<a class="content" style="margin: 0px;" href="https://www.google.com/maps/place/%E6%9D%B1%E4%BA%AC%E5%AD%A6%E8%8A%B8%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1/@35.6343562,139.678723,17z/data=!3m1!4b1!4m5!3m4!1s0x6018f4b902592c33:0xe915c3353167217b!8m2!3d35.6343562!4d139.678723?hl=ja" target="_blank">本校へのアクセス（Google マップ）</a><br /><br />
+							<a class="content" style="margin: 0px;" href="http://www.gakugei-hs.setagaya.tokyo.jp/access/" target="_blank">本校へのアクセス（本校ＨＰ）</a>
+						</div>
+					</div>
+					
 					<h1><br></h1>
 					
 					<h3 class="topic-title">
@@ -87,6 +102,14 @@
 						編成
 					</h3>
 					<h4 class="sub-title">弦楽器</h4>
+					<h4 class="content">ヴァイオリン、ヴィオラ、チェロ、コントラバス</h4>
+					<h4 class="sub-title">木管楽器</h4>
+					<h4 class="content">フルート、オーボエ、ファゴット、クラリネット</h4>
+					<h4 class="sub-title">金管楽器</h4>
+					<h4 class="content">トランペット、ホルン、トロンボーン、チューバ</h4>
+					<h4 class="sub-title">打楽器</h4>
+					<h4 class="content">パーカッション<br /><br /></h4>
+					<a class="content" style="display: block" href="instruments.html">楽器紹介へ</a>
 					
 					<!-- キャラクター -->
 					<h1><br></h1>
@@ -94,15 +117,14 @@
 						<img class="small" src="p/3chars.png" />
 					</div>
 				</div>
+				
 				<!-- フッター ここから下はいじらなくてOK --> 
 				<footer class="mdl-mini-footer">
-					<!-- 共有メニュー -->
 					<div class="mdl-mini-footer__left-section">
 						<div class="mdl-logo">共有!</div>
-						<button class="mdl-mini-footer__social-btn" style="width: 50px; background: #42c505; color: white" onclick="window.open('https://social-plugins.line.me/lineit/share?url=' + encodeURI(location.href))">LINE</button>
-						<button class="mdl-mini-footer__social-btn" style="width: 50px; background: #00acee; color: white" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURI(location.href))">Twitter</button>
+						<button class="mdl-chip" style="background: #42c505;" onclick="window.open('https://social-plugins.line.me/lineit/share?url=' + encodeURI(location.href))"><span class="mdl-chip__text" style="color: white">LINE</span></button>
+						<button class="mdl-chip" style="background: #00acee;" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURI(location.href))"><span class="mdl-chip__text" style="color: white">Twitter</span></button>
 					</div>
-					<!-- 最終更新日 -->
 					<div class="mdl-mini-footer__right-section">
 						<div class="mdl-logo">
 							<script type="text/javascript">
