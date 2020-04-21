@@ -30,6 +30,10 @@ h3.topic-title {
 	margin-right: 10vw;
 }
 
+h4 {
+	line-height: 34px;
+}
+
 h4.sub-title {
 	margin-top: 50px;
 	text-align: center;
@@ -40,7 +44,7 @@ h4.content {
 	font-family: serif;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	text-align: center;
+	text-align: justify;
 	font-weight: 300;
 }
 
