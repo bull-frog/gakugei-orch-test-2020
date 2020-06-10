@@ -21,5 +21,5 @@ function copyright() {
 	var y = day.getFullYear();
 	var m = day.getMonth() + 1;
 	var d = day.getDate();
-	return "<a href='index.html'>©Fuko Orch. Club</a> " + y + "/" + m + "/" + d
+	return "<a href='index.html'>©Fuko Orch. Club</a> " + y + "/" + m + "/" + d + "更新"
 }
