@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500;600&display=swap');
+@import url('title.css');
+@import url('header_mob.css');
+
+/*総合*/
+
+html {
+	background-color: #f3f3f3;
+}
+
+body {
+	margin: 0px;
+	font-size: default;
+	text-align: justify;
+}
+
+* {
+	border-radius: 6px;
+}
+
+a {
+	transition: 0.1s;
+}
+
+
+/*各オブジェクト*/
+
+.content {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card {
+	position: relative;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.card h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	
+	font-size: 225%;
+	font-weight: lighter;
+	line-height: 1;
+	
+	color: #ab8ffd;
+}
+.card div {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	
+	line-height: 1.8;
+}
+.card h2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0px;
+	
+	font-family: "Ruda", sans-serif;
+	font-size: 150%;
+	line-height: 1;
+	
+	color: rgba(217, 217, 217, 0.5);
+	text-shadow: 1.5px 1.5px 2px #fff, 0 0 0 #444;
+}
+
+.banner {
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	text-align: center;
+	font-size: x-large;
+}
+
+.grid-2-raw {
+	display: grid;
+	gap: 5vw;
+	grid-template-columns: 1fr;
+}
+
+a .card {
+	margin: 0;
+}
+a.box-link {
+	text-decoration: none;
+}
+a.box-link:hover {
+	transform: translate(-2.5px, -2.5px);
+	box-shadow: 0 16px 20px 2px rgba(0,0,0,0.14), 0 6px 28px 4px rgba(0,0,0,0.12);
+}
+
+/*各プロパティ*/
+
+.fill-white {
+	color: #333333;
+	background-color: white;
+}
+.fill-grad {
+	color: white;
+	background: linear-gradient(-45deg, #f091f0, #ac90ff);
+}
+.fill-grad a {
+	color: white;
+}
+.fill-grad a:hover {
+	background: linear-gradient(transparent 50%, white 100%);
+}
+.skeleton {
+	background-color: transparent;
+	border: 3px solid;
+}
+
+
+.fill-shadow {
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+}
+.skeleton-shadow {
+	background: transparent;
+	filter: drop-shadow(6px 6px 8px #00000066);
+}
+a.skeleton-shadow:hover {
+	filter: drop-shadow(18px 18px 8px #00000033);
+	transform: translate(-2.5px, -2.5px);
+}
+
+
+.color-blue {
+	color: #6d0eea;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+.match-parent-width {
+	width: 100%;
+}
+.match-parent-height {
+	height: 100%;
+}
+
+
+span.bold {
+	font-weight: bold;
+}
+span.right {
+	display: inline-block;
+	text-align: right;
+	width: 100%
+}
+span.font {
+	font-family: "Ruda", sans-serif;
+}

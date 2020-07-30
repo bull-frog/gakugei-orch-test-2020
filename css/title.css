@@ -1,0 +1,41 @@
+#title-section {
+	height: 100vh;
+	position: relative;
+}
+
+/*附高オーケストラ部*/
+#title-box {
+	position: absolute;
+	top: 10vh;
+	left: 9vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 40vw;
+	height: 60vh;
+	z-index: 2;
+}
+
+#title-box h1 {
+	color: #ac90ff;
+	font-size: 5.7vw;
+	font-weight: 500;
+	font-family: "Ruda", sans-serif;
+	line-height: 1.1;
+}
+
+#title-box span {
+	color: #8962fd;
+	font-weight: 600;
+}
+
+/*グラデーション*/
+#color-box {
+	position: absolute;
+	top: 25vh;
+	left: 0vw;
+	width: 40vw;
+	height: 55vh;
+	z-index: 1;
+}
